@@ -53,6 +53,75 @@
       p {
         line-height: inherit;
       }
+
+      .flex_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-justify-content: space-between;
+        max-width: 540px;
+        margin: auto;
+        font-family: 'Poppins',sans-serif;
+        margin-top: 20px;
+      }
+
+      .flex_wrap {
+        width: 33.3%;
+        padding: 0 3px;
+      }
+
+      .flex-item {
+        width: 100%;
+        border: #D8E1F0 0.6px solid;
+        border-radius: 9px;
+        background: #ffffff;
+      }
+
+      .flex-item img {
+        width: 100%;
+      }
+
+      .product_desc {
+        padding: 4px 6px;
+      }
+
+      .product_title {
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        width: 100%;
+      }
+      .product_price_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+
+      .product_price_container .main_price {
+        font-weight: 800;
+        font-size: 13px;
+        margin: 0;
+      }
+
+      .product_price_container .original_price {
+        font-weight: 500;
+        font-size: 9px;
+        color: red;
+        text-decoration: line-through;
+        margin: 0;
+        padding-left: 5px;
+      }
     </style>
   </head>
   <body
@@ -607,545 +676,57 @@
             </table>
             <!-- middle text container after underline -->
 
-            <table
-              class="nl-container"
-              width="100%"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              style="
-                mso-table-lspace: 0pt;
-                mso-table-rspace: 0pt;
-                background-color: #ffffff;
-              "
-            >
-              <tbody>
-                <tr>
-                  <td>
-                    <table
-                      class="row row-1"
-                      align="center"
-                      width="100%"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
-                    >
-                      <tbody>
-                        <tr>
-                          <td>
-                            <table
-                              class="row-content stack"
-                              align="center"
-                              border="0"
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              style="
-                                mso-table-lspace: 0pt;
-                                mso-table-rspace: 0pt;
-                                color: #000000;
-                                width: 505px;
-                                margin: 0 auto;
-                                border-spacing: 10px;
-                              "
-                              width="505.00"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    class="column column-1"
-                                    width="33.333333333333336%"
-                                    style="
-                                      mso-table-lspace: 0pt;
-                                      mso-table-rspace: 0pt;
-                                      font-weight: 400;
-                                      text-align: left;
-                                      padding-bottom: 5px;
-                                      padding-top: 0px;
-                                      vertical-align: top;
-                                      border-top: 0px;
-                                      border-right: 0px;
-                                      border-bottom: 0px;
-                                      border-left: 0px;
-                                      border: 1px solid #d8e1f0;
-                                      border-radius: 9px;
-                                    "
-                                  >
-                                    <table
-                                      class="image_block block-1"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                      "
-                                    >
-                                      <tr>
-                                        <td class="pad" style="width: 100%">
-                                          <div
-                                            class="alignment"
-                                            align="center"
-                                            style="line-height: 10px"
-                                          >
-                                            <div style="max-width: 180px">
-                                              <img
-                                                src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068%20%281%29.png"
-                                                style="
-                                                  display: block;
-                                                  height: auto;
-                                                  border: 0;
-                                                  width: 100%;
-                                                "
-                                                width="180"
-                                                alt="I'm an image"
-                                                title="I'm an image"
-                                              />
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="text_block block-2"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                            padding-top: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              font-family: 'Poppins', sans-serif;
-                                            "
-                                          >
-                                            <div
-                                              class
-                                              style="
-                                                font-size: 14px;
-                                                font-family: 'Poppins',
-                                                  sans-serif;
-
-                                                mso-line-height-alt: 14.399999999999999px;
-                                                color: #555555;
-                                                line-height: 1.2;
-                                              "
-                                            >
-                                              <p
-                                                style="
-                                                  margin: 0;
-                                                  mso-line-height-alt: 14.399999999999999px;
-                                                  font-family: 'Poppins',
-                                                    sans-serif;
-                                                "
-                                              >
-                                                <span style="font-size: 14px"
-                                                  >Eye Boggler Full
-                                                  Sle.....</span
-                                                >
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="paragraph_block block-3"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              color: #1c1c1c;
-                                              direction: ltr;
-                                              font-family: 'Poppins', sans-serif;
-                                              font-size: 12px;
-                                              font-weight: 400;
-                                              letter-spacing: 0px;
-                                              line-height: 120%;
-                                              text-align: left;
-                                              mso-line-height-alt: 15.6px;
-                                            "
-                                          >
-                                            <p style="margin: 0">
-                                              ₹399 &nbsp;<span
-                                                style="
-                                                  font-size: 9px;
-                                                  color: #f00;
-                                                "
-                                                >₹1299</span
-                                              >
-                                            </p>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                  <td
-                                    class="column column-2"
-                                    width="33.333333333333336%"
-                                    style="
-                                      mso-table-lspace: 0pt;
-                                      mso-table-rspace: 0pt;
-                                      font-weight: 400;
-                                      text-align: left;
-                                      padding-bottom: 5px;
-                                      padding-top: 0px;
-                                      vertical-align: top;
-                                      border-top: 0px;
-                                      border-right: 0px;
-                                      border-bottom: 0px;
-                                      border-left: 0px;
-                                      border: 1px solid #d8e1f0;
-                                      border-radius: 9px;
-                                    "
-                                  >
-                                    <table
-                                      class="image_block block-1"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                      "
-                                    >
-                                      <tr>
-                                        <td class="pad" style="width: 100%">
-                                          <div
-                                            class="alignment"
-                                            align="center"
-                                            style="line-height: 10px"
-                                          >
-                                            <div style="max-width: 180px">
-                                              <img
-                                                src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068%20%282%29.png"
-                                                style="
-                                                  display: block;
-                                                  height: auto;
-                                                  border: 0;
-                                                  width: 100%;
-                                                "
-                                                width="180"
-                                                alt="I'm an image"
-                                                title="I'm an image"
-                                              />
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="text_block block-2"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                            padding-top: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              font-family: 'Poppins', sans-serif;
-                                            "
-                                          >
-                                            <div
-                                              class
-                                              style="
-                                                font-size: 14px;
-                                                font-family: 'Poppins',
-                                                  sans-serif;
-
-                                                mso-line-height-alt: 14.399999999999999px;
-                                                color: #555555;
-                                                line-height: 1.2;
-                                              "
-                                            >
-                                              <p
-                                                style="
-                                                  margin: 0;
-                                                  mso-line-height-alt: 14.399999999999999px;
-                                                  font-family: 'Poppins',
-                                                    sans-serif;
-                                                "
-                                              >
-                                                <span style="font-size: 14px"
-                                                  >Eye Boggler Full
-                                                  Sle.....</span
-                                                >
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="paragraph_block block-3"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              color: #1c1c1c;
-                                              direction: ltr;
-                                              font-family: 'Poppins', sans-serif;
-                                              font-size: 12px;
-                                              font-weight: 400;
-                                              letter-spacing: 0px;
-                                              line-height: 120%;
-                                              text-align: left;
-                                              mso-line-height-alt: 15.6px;
-                                            "
-                                          >
-                                            <p style="margin: 0">
-                                              ₹399 &nbsp;<span
-                                                style="
-                                                  font-size: 9px;
-                                                  color: #f00;
-                                                "
-                                                >₹1299</span
-                                              >
-                                            </p>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                  <td
-                                    class="column column-3"
-                                    width="33.333333333333336%"
-                                    style="
-                                      mso-table-lspace: 0pt;
-                                      mso-table-rspace: 0pt;
-                                      font-weight: 400;
-                                      text-align: left;
-                                      padding-bottom: 5px;
-                                      padding-top: 0px;
-                                      vertical-align: top;
-                                      border-top: 0px;
-                                      border-right: 0px;
-                                      border-bottom: 0px;
-                                      border-left: 0px;
-                                      border: 1px solid #d8e1f0;
-                                      border-radius: 9px;
-                                    "
-                                  >
-                                    <table
-                                      class="image_block block-1"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                      "
-                                    >
-                                      <tr>
-                                        <td class="pad" style="width: 100%">
-                                          <div
-                                            class="alignment"
-                                            align="center"
-                                            style="line-height: 10px"
-                                          >
-                                            <div style="max-width: 180px">
-                                              <img
-                                                src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068.png"
-                                                style="
-                                                  display: block;
-                                                  height: auto;
-                                                  border: 0;
-                                                  width: 100%;
-                                                "
-                                                width="180"
-                                                alt="I'm an image"
-                                                title="I'm an image"
-                                              />
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="text_block block-2"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                            padding-top: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              font-family: 'Poppins', sans-serif;
-                                            "
-                                          >
-                                            <div
-                                              class
-                                              style="
-                                                font-size: 14px;
-                                                font-family: 'Poppins',
-                                                  sans-serif;
-                                                mso-line-height-alt: 14.399999999999999px;
-                                                color: #555555;
-                                                line-height: 1.2;
-                                              "
-                                            >
-                                              <p
-                                                style="
-                                                  margin: 0;
-                                                  mso-line-height-alt: 14.399999999999999px;
-                                                "
-                                              >
-                                                <span style="font-size: 14px"
-                                                  >Eye Boggler Full
-                                                  Sle.....</span
-                                                >
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                    <table
-                                      class="paragraph_block block-3"
-                                      width="100%"
-                                      border="0"
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        word-break: break-word;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          class="pad"
-                                          style="
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              color: #1c1c1c;
-                                              direction: ltr;
-                                              font-family: 'Poppins', sans-serif;
-                                              font-size: 12px;
-                                              font-weight: 400;
-                                              letter-spacing: 0px;
-                                              line-height: 120%;
-                                              text-align: left;
-                                              mso-line-height-alt: 15.6px;
-                                            "
-                                          >
-                                            <p style="margin: 0">
-                                              ₹399 &nbsp;<span
-                                                style="
-                                                  font-size: 9px;
-                                                  color: #f00;
-                                                "
-                                                >₹1299</span
-                                              >
-                                            </p>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="">
+              <div class="flex_container">
+                <div class="flex_wrap">
+                  <div class="flex-item">
+                    <img src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068%20%281%29.png" alt="">
+                    <div class="product_desc">
+  
+                      <p class="product_title">
+                        Eye Boggler Full Sleek tshirt
+                      </p>
+                      <div class="product_price_container">
+                        <p class="main_price">₹399</p>
+                        <span class="original_price">₹1200</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex_wrap">
+  
+                
+                <div class="flex-item">
+                  <img src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068.png" alt="">
+                  <div class="product_desc">
+  
+                    <p class="product_title">
+                      Eye Boggler Full Sleek tshirt
+                    </p>
+                    <div class="product_price_container">
+                      <p class="main_price">₹399</p>
+                      <span class="original_price">₹1200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="flex_wrap">
+                  <div class="flex-item">
+                    <img src="https://55eccdc3e8.imgdist.com/public/users/Integrators/BeeProAgency/1104667_1090121/Rectangle%2068%20%282%29.png" alt="">
+                    <div class="product_desc">
+  
+                      <p class="product_title">
+                        Eye Boggler Full Sleek tshirt
+                      </p>
+                      <div class="product_price_container">
+                        <p class="main_price">₹399</p>
+                        <span class="original_price">₹1200</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <!-- middle design underline container -->
             <table
